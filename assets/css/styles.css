@@ -43,4 +43,13 @@
   background-clip: text;
 }
 
-/* end navigation */
+/* End navigation */
+
+/* Banner Area */
+
+.site-main .site-banner {
+  background: url(../img/banner/home-banner.png) no-repeat;
+  background-position: 0% 50%;
+}
+
+/* End Banner Area */
