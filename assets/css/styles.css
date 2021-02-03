@@ -85,10 +85,10 @@
 
 .noselect {
   -webkit-touch-callout: none;
-  -webkit-user-select: none;
+  -webkit-user-select: none; /* Chrome all / Safari all */
   -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
   user-select: none;
   pointer-events: none;
 }
