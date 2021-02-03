@@ -2,6 +2,9 @@
 
 @import url(./fonts.css);
 
+/* css variables */
+@import url(./partials/_variables.css);
+
 /* start navigation */
 
 .header_area .main-menu .navbar .navbar-brand {
@@ -17,11 +20,27 @@
 }
 
 .header_area .main-menu .nav-item .nav-link {
-  font-family: 'Roboto', cursive;
-  text-transform: uppercase;
+  font: normal 500 15px/2px var(--roboto);
+  /* next 2 lines included above */
+  font-family: var(--roboto);
   font-weight: 500;
+  text-transform: uppercase;
   padding: 1.7rem;
-  color: black;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* end navigation */
