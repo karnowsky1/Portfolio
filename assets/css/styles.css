@@ -1,3 +1,27 @@
 /* import forms from fonts.css */
 
 @import url(./fonts.css);
+
+/* start navigation */
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.mr-auto {
+  margin-left: auto;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font-family: 'Roboto', cursive;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: black;
+}
+
+/* end navigation */
