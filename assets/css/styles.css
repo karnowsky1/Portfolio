@@ -94,3 +94,24 @@
 }
 
 /* End Banner Area */
+
+/* Start About Area */
+
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  /* font, font style, font size/line heigth, font family */
+  font: normal bold 49px/60px var(--roboto);
+  /* was originally letter-spacing: 21px; */
+  /* ask soowon about the letter spacing */
+  letter-spacing: 0.5rem;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.4rem 0;
+}
+
+/* End About Area */
