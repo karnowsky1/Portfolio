@@ -115,3 +115,24 @@
 }
 
 /* End About Area */
+
+/* Start Brand Area */
+
+.site-main .brand-area {
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 0.9rem 0;
+}
+
+/* End Brand Area */
