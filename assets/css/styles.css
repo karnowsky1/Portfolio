@@ -191,8 +191,12 @@
   padding-left: 10rem;
 }
 
-.call-now > a {
+.anchor-style {
   text-decoration: none;
+}
+
+.call-now > a {
+  color: var(--primary-color2);
 }
 
 /* End Brand Area */
@@ -224,3 +228,55 @@
 }
 
 /* End Services Area */
+
+/* Start Project Area */
+
+.site-main .project-area {
+  padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/139px var(--roboto);
+  text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button {
+  padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/* End Project Area */
+
+/* Start Footer Area */
+.copyrights .para a > span {
+  color: var(--primary-color);
+}
+
+footer.footer-area {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5 {
+  font: normal 500 23px/30px var(--roboto);
+}
+
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color);
+}
+
+/* End Footer Area */
